@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Seth Robinson">
+		<title>Google</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<nav id="header">
+			<ul>
+				<li class="top top-left-nav"><a href="https://www.google.com/intl/en/about/?fg=1&utm_source=google.com&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+				<li class="top top-left-nav"><a href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042">Store</a></li>
+				<li><button class="top top-right-nav">Sign in</button></li>
+				<li class="top top-right-nav"><a href="https://www.google.com/intl/en/options/"><img src="./images/apps.png" alt="Google apps" title="Google apps" id="app-array"></a></li>
+				<li class="top top-right-nav"><a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0" id="images">Images</a></li>
+				<li class="top top-right-nav"><a href="https://mail.google.com/mail/?tab=wm&authuser=0" id="gmail">Gmail</a></li>
+			</ul>
+		</nav><!-- #header -->
+		<img src="./images/google-logo.png" alt="Google" id="logo">
+		<form action="/search" method="GET" name="search" id="search-form" class="search">
+			<div id="sb-wrapper" class="search">
+				<input type="text" id="search-bar" name="search" title="Search" class="search" autofocus="autofocus"</input>
+				<input type="image" id="vocal-search" src="./images/mic.png" name="vocal_search" title="Search by voice" class="search">
+			</div><!-- #sb-wrapper -->
+			<input type="submit" form="search-form" id="google-search" value="Google Search" name="google_search" class="search">
+			<input type="submit" form="search-form" id="im-feeling-lucky" value="I'm Feeling Lucky" name="im_feeling_lucky" class="search">
+		</form><!-- #search-form -->
+		<nav id="footer">
+			<ul>
+				<li class="bottom bottom-left-nav"><a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+				<li class="bottom bottom-left-nav"><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
+				<li class="bottom bottom-right-nav"><a href="https://www.google.com/preferences?hl=en" id="settings">Settings</a></li>
+				<li class="bottom bottom-right-nav"><a href="https://www.google.com/intl/en_us/policies/terms/?fg=1" id="terms">Terms</a></li>
+				<li class="bottom bottom-right-nav"><a href="https://www.google.com/intl/en_us/policies/privacy/?fg=1" id="privacy">Privacy</a></li>
+			</ul>
+		</nav><!-- #footer -->
+	</body>
+</html>
