@@ -113,11 +113,17 @@ form>* {
 	form, #sb-wrapper {
 		flex-basis: 584px;
 	}
+	#search-bar {
+		flex-basis: 503px;
+	}
 }
 
 @media only screen and (max-width: 1249px) {
 	form, #sb-wrapper {
 		flex-basis: 484px;
+	}
+	#search-bar {
+		flex-basis: 403px;
 	}
 }
 
@@ -137,12 +143,9 @@ form>* {
 }
 
 #search-bar {
-	width: 403px;
 	height: 34px;
 	border: none;
 	outline: none;
-	-webkit-flex: initial;
-	flex: none;
 	object-position: top;
 	font-size: 16px;
 }
